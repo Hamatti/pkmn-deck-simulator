@@ -24,3 +24,5 @@ yarn-error.log*
 
 # deck lists for quick manual testing
 *.dec
+
+.netlify/
