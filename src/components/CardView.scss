@@ -1,0 +1,21 @@
+.card--container {
+  display: grid;
+  grid-template-areas: "title" "image" "details";
+  border: 1px solid black;
+  @media screen and (min-width(600px)) {
+    grid-template-areas: "title title" "image details";
+  }
+}
+
+.card--image {
+  width: 200px;
+  grid-area: image;
+}
+
+.card--details {
+  grid-area: details;
+}
+
+.card--title {
+  grid-area: title;
+}

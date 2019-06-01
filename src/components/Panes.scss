@@ -1,0 +1,9 @@
+.left {
+  grid-area: left;
+  border-right: 1px solid black;
+}
+
+.right {
+  grid-area: right;
+  padding-left: 2em;
+}
